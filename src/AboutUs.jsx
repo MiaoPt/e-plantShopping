@@ -21,8 +21,6 @@ function AboutUs({ goToProductsParam }) {
                 <p>At E-PlantShopping, we believe plants do more than just decorate a space—they improve well-being, boost mood, and create a calming environment. That’s why we aim to provide not only high-quality plants, but also helpful care tips and guidance to ensure your plants thrive.</p>          
             </div>
         </div>
-            
-        
         </>
     )
 
