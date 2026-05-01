@@ -2,7 +2,7 @@
 import './App.css';
 import AboutUs from './AboutUs';
 import ProductList from './components/ProductList';
-import CartList from './components/CartList';
+import CartItem from './components/CartItem';
 import Checkout from './components/Checkout';
 import { useState } from "react";
 
@@ -17,7 +17,7 @@ function App() {
     <>
       {page === 'landing' && <AboutUs goToProductsParam={goToProducts} />}
       {page === 'products' && <ProductList goToCartParam={goToCart} />}
-      {page === 'cart' && <CartList goToProductsParam={goToProducts} goToCheckoutParam={goToCheckout} />}
+      {page === 'cart' && <CartItem goToProductsParam={goToProducts} goToCheckoutParam={goToCheckout} />}
       {page === 'checkout' && <Checkout />};
 
     </>

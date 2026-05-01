@@ -4,7 +4,7 @@ import { increaseQuantity, decreaseQuantity, removeItem } from '../store/cartSli
 import Banner from './Banner'
 import Checkout from './Checkout';
 
-function CartList({goToCartParam, goToProductsParam, goToCheckoutParam}) {
+function CartItem({goToCartParam, goToProductsParam, goToCheckoutParam}) {
     const cartItems = useSelector((state) => state.cart.items);
     const dispatch = useDispatch();
     const totalCost = useSelector((state) => state.cart.totalCost)
@@ -51,4 +51,4 @@ function CartList({goToCartParam, goToProductsParam, goToCheckoutParam}) {
     );
 }
 
-export default CartList;
+export default CartItem;
