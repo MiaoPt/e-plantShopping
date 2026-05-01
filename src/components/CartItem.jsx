@@ -1,6 +1,6 @@
 import '../App.css';
 import { useDispatch, useSelector } from "react-redux";
-import { increaseQuantity, decreaseQuantity, removeItem } from '../store/cartSlice';
+import { increaseQuantity, decreaseQuantity, removeItem } from '../store/CartSlice';
 import Banner from './Banner'
 import Checkout from './Checkout';
 

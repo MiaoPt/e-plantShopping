@@ -4,7 +4,7 @@ import logo from '../logo.png';
 import '../App.css';
 import { useSelector } from "react-redux";
 import { useDispatch } from 'react-redux';
-import { addItem } from '../store/cartSlice';
+import { addItem } from '../store/CartSlice.jsx';
 import Banner from './Banner.jsx'
 
 function ProductList({goToCartParam}) {
